@@ -46,12 +46,7 @@ while True:
         color = (255, 255, 0)
 
 
-
-
     win.fill((255, 255, 255))
     pygame.draw.circle(win, color, (xCircle, yCircle), 30)
     pygame.display.update()
     pygame.time.delay(10)
-
-
-
